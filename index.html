@@ -33,7 +33,7 @@ left: 50%;
 <desmond-player id="player" style="position: relative; transform: translate(-50%, -50%); left: 35%; top: 100%; border-color: black;"></desmond-player>
 <a href="demos/firmware.html" id="unplacedheader" style="position: relative; width: 100%; text-align: center; top: 105%; left: 25%"> Firmware/Home Screen Demo (supports less games as it is using outdated firmware and is just for showcasing purposes) </a>
 <p style="position: absolute; top: 98.35%; left: 49%;"> Enable Microphone </p>
-<script src="dist/desmond.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Morples/desmond@main/cdn/desmond.min.js"></script>
 <script>
   document.querySelector("input").onchange = function(){
 document.querySelector("desmond-player").loadURL(URL.createObjectURL(document.querySelector("input").files[0]), function(){
